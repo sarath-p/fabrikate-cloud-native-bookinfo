@@ -9,6 +9,9 @@
 *.userosscache
 *.sln.docstates
 
+# Fabrikate downloads folder
+components/
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
