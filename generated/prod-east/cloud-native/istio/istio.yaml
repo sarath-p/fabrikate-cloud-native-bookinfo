@@ -1567,8 +1567,8 @@ kind: Service
 metadata:
   name: istio-ingressgateway
   namespace: istio-system
-  # annotations:
-  #   service.beta.kubernetes.io/azure-load-balancer-resource-group: "spin-east-rg"
+  annotations:
+    service.beta.kubernetes.io/azure-load-balancer-resource-group: "spin-east-rg"
   labels:
     chart: gateways
     heritage: Tiller
@@ -1576,7 +1576,7 @@ metadata:
     app: istio-ingressgateway
     istio: ingressgateway
 spec:
-  loadBalancerIP: "52.232.249.49"
+  loadBalancerIP: "52.167.115.245"
   type: LoadBalancer
   selector:
     release: istio
