@@ -11,7 +11,7 @@
 
 # Fabrikate downloads folder
 components/
-*.DS_Store
+.DS_Store
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
