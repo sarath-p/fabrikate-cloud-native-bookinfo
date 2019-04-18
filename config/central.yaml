@@ -1,0 +1,10 @@
+subcomponents:
+  cloud-native:
+    subcomponents:
+      istio:
+        config:
+          gateways:
+            istio-ingressgateway:
+              loadBalancerIP: 40.65.120.17
+              serviceAnnotations:
+                service.beta.kubernetes.io/azure-load-balancer-resource-group: "spin-central-rg"
