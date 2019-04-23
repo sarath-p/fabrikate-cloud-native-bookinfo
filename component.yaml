@@ -7,6 +7,6 @@ subcomponents:
   branch: master
 - name: bookinfo
   generator: component
-  source: https://github.com/evanlouie/fabrikate-bookinfo
+  source: https://github.com/sarath-p/fabrikate-bookinfo
   method: git
   branch: master

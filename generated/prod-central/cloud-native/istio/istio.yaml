@@ -1576,7 +1576,7 @@ metadata:
     app: istio-ingressgateway
     istio: ingressgateway
 spec:
-  loadBalancerIP: "52.165.153.232"
+  loadBalancerIP: "40.65.120.17"
   type: LoadBalancer
   selector:
     release: istio
