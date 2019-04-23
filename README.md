@@ -1,1 +1,1 @@
-# fabrikate-istio-bookinfo
+# fabrikate-cloud-native-bookinfo
