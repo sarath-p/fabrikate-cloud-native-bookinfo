@@ -1,12 +1,11 @@
 name: ingress
 subcomponents:
-- name: cloud-native
-  generator: component
-  source: https://github.com/timfpark/fabrikate-cloud-native
-  method: git
-  branch: master
-- name: bookinfo
-  generator: component
-  source: https://github.com/sarath-p/fabrikate-bookinfo
-  method: git
-  branch: master
+  - name: cloud-native
+    source: https://github.com/Microsoft/fabrikate-definitions.git
+    path: definitions/fabrikate-cloud-native
+    method: git
+  - name: bookinfo
+    generator: component
+    source: https://github.com/sarath-p/fabrikate-bookinfo
+    method: git
+    branch: master
