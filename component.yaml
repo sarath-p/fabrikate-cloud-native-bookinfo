@@ -1,4 +1,4 @@
-name: ingress
+name: bookinfo
 subcomponents:
   - name: cloud-native
     source: https://github.com/Microsoft/fabrikate-definitions.git
